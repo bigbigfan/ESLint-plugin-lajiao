@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-ljtest1",
+  "version": "1.0.9",
+  "description": "lint test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "eslint-config"
+  ],
+  "author": "lajiao <Wzf976210539@gamil.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "prettier": "^2.6.2",
+    "vue-eslint-parser": "^9.0.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
+  },
+  "dependencies": {
+    "eslint-plugin-vue": "^8.7.1"
+  }
+}
